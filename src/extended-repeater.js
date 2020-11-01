@@ -1,4 +1,4 @@
-module.exports = function repeater(/* str, options */) {
+module.exports = function repeater( str, options ) {
     let res = '';
     for (let i = 1; i <= options.repeatTimes;i++){
         res += str
